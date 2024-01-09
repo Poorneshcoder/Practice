@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import NormalFetch from './fetchFunctions/NormalFetch';
 import AsynFunction from './fetchFunctions/AsyncAWait';
+import UserForm from './formData/Form';
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
 
       <NormalFetch />
       <AsynFunction />
+      <UserForm/>
     </div>
   );
 }
